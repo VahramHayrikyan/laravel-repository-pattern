@@ -1,0 +1,510 @@
+.checkout-container {
+    background-color: #2B292A;
+    padding-top: 20px;
+}
+
+.checkout-main {
+    background-color: #3A3A3A;
+    padding: 20px;
+    border-top: 2px solid #585858;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.checkout-labels {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #E70E2B;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.checkout-labels-checkout {
+    color: #F3F3F3;
+    font-size: 24px;
+    width: 28.57%;
+}
+
+.checkout-labels-product {
+    text-align: center;
+    width: 28.57%;
+}
+
+.checkout-labels-quantity {
+    text-align: center;
+    width: 14.28%;
+}
+
+.checkout-labels-price {
+    text-align: center;
+    width: 28.57%;
+}
+
+.checkout-labels-edit {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.checkout-labels-edit a {
+    color: #f3f3f3;
+    border: 2px solid #f3f3f3;
+    background: transparent;
+    font-size: 10px;
+    padding: 10px 30px;
+    outline: none;
+    -webkit-transition : border 500ms ease-out;
+    -moz-transition : border 500ms ease-out;
+    -o-transition : border 500ms ease-out;
+    transition : border 500ms ease-out;
+}
+
+.checkout-labels-edit a:hover {
+    border: 2px solid #E70E2B;
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.checkout-main-left {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-product {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.checkout-product-image-container {
+    width: 28.57%;
+    border: 1px solid #2B292A;
+}
+
+.checkout-product-image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 46%;
+}
+
+.checkout-product-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.checkout-product-title-container {
+    border: 1px solid #2B292A;
+    border-left-width: 0;
+    width: 28.57%;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.checkout-product-category-img {
+    height: 20px;
+    margin-top: 10px;
+    align-self: center;
+}
+
+@media (min-width: 992px) {
+    .checkout-product-category-img {
+        height: 30px;
+    }
+}
+
+.checkout-product-title-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-product-quantity-container {
+    border: 1px solid #2B292A;
+    border-left-width: 0;
+    width: 14.28%;
+    color: #E70E2B;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.checkout-product-price-container {
+    border: 1px solid #2B292A;
+    border-left-width: 0;
+    width: 28.57%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.checkout-product-price-normal {
+    color: #E70E2B;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.checkout-product-price-points {
+    color: #F3F3F3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.checkout-main-right {
+    width: 20%;
+    padding-left: 20px;
+    text-align: right;
+}
+
+.checkout-banner {
+    width: 100%;
+}
+
+.smart-buyer-tip {
+    position: relative;
+    font-size: 12px;
+    color: #FFF;
+    background: #59A651;
+    margin-top: 5px;
+}
+
+.smart-buyer-wave {
+    color: #000;
+    font-weight: bold;
+    padding: 50px 5px 5px 5px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.smart-buyer-add {
+    font-weight: bold;
+    padding: 5px 5px 20px 5px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.paypal-points-text, .paypal-fee-text {
+    color: #7D7D7D;
+    font-size: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.checkout-main-paypal-img {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.checkout-main-paypal-img, .checkout-main-payments-img {
+    max-width: 100%;
+}
+
+.checkout-labels-edit.mobile {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .checkout-main {
+        flex-direction: column;
+    }
+
+    .checkout-main-left, .checkout-main-right {
+        width: 100%;
+    }
+
+    .checkout-banner {
+        display: none;
+    }
+
+    .checkout-main-right {
+        display: flex;
+        margin-top: 10px;
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .checkout-labels-edit {
+        display: none;
+    }
+
+    .smart-buyer-tip {
+        margin-top: 0;
+    }
+
+    .checkout-labels-edit.mobile {
+        display: inline-block;
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+
+.checkout-payment {
+    background-color: #3A3A3A;
+    padding: 20px;
+    border-top: 2px solid #585858;
+    display: flex;
+    flex-direction: row;
+}
+
+.checkout-payment-pay {
+    background-color: #3A3A3A;
+    padding: 30px;
+    border-top: 1px solid #2B292A;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.checkout-payment-pay button {
+    background: transparent;
+    border: 2px solid #f3f3f3;
+    color: #f3f3f3;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 80px;
+    -webkit-transition : border 500ms ease-out;
+    -moz-transition : border 500ms ease-out;
+    -o-transition : border 500ms ease-out;
+    transition : border 500ms ease-out;
+}
+
+.checkout-payment-pay button:hover {
+    border: 2px solid #E70E2B;
+}
+
+.checkout-payment-pay img {
+    margin-left: 30px;
+    height: 30px;
+}
+
+.checkout-payment-title {
+    color: #f3f3f3;
+    font-weight: bold;
+    font-size: 26px;
+    width: 33%;
+}
+
+.checkout-payment-paypal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #f3f3f3;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.checkout-payment-points {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #f3f3f3;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.checkout-payment-credit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #f3f3f3;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.checkout-payment-radio:checked,
+.checkout-payment-radio:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.checkout-payment-radio:checked + label,
+.checkout-payment-radio:not(:checked) + label
+{
+    display: flex;
+    align-items: center;
+    color: #f3f3f3 !important;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    /*display: inline-block;*/
+    color: #666;
+}
+.visa-mastercard-img {
+    max-width: 160px;
+    margin-left: 25px;
+    object-fit: cover;
+}
+
+.checkout-payment-radio:checked + label:before,
+.checkout-payment-radio:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    background: gray;
+}
+
+.checkout-payment-paypal .checkout-payment-radio:checked + label:before,
+.checkout-payment-paypal .checkout-payment-radio:not(:checked) + label:before {
+    top: 18px;
+}
+
+.checkout-payment-radio:checked + label:after,
+.checkout-payment-radio:not(:checked) + label:after {
+    content: '';
+    width: 9px;
+    height: 9px;
+    background: red;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.checkout-payment-paypal .checkout-payment-radio:checked + label:after,
+.checkout-payment-paypal .checkout-payment-radio:not(:checked) + label:after {
+    top: 18px;
+}
+
+.checkout-payment-radio:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.checkout-payment-radio:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.checkout-product-mobile-container {
+    display: none;
+}
+
+@media (max-width: 650px) {
+    .checkout-product-mobile-container {
+        border: 1px solid #2B292A;
+        width: 57.14%;
+        color: #F3F3F3;
+        font-size: 12px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 0 0 20px 0;
+    }
+
+    .checkout-product-title-wrapper {
+        margin-top: 10px;
+    }
+
+    .checkout-product-image-container, .checkout-product-title-container {
+        display: none;
+    }
+
+    .checkout-labels {
+        font-size: 12px;
+    }
+
+    .checkout-labels-checkout {
+        font-size: 12px;
+    }
+
+    .checkout-banner {
+        display: none;
+    }
+
+    .checkout-payment {
+        flex-direction: column;
+    }
+
+    .checkout-payment-paypal, .checkout-payment-points, .checkout-payment-credit {
+        margin: 20px 0 0 0;
+    }
+
+    .checkout-payment-title {
+        width: 100%;
+    }
+
+    .checkout-payment-pay button {
+        padding: 20px 50px;
+    }
+}
+
+.checkout-summary {
+    margin-top: 50px;
+    width: 100%;
+    border-bottom: 1px solid #2B292A;
+    font-size: 12px;
+    color: #f3f3f3;
+}
+
+.checkout-summary-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkout-summary-left {
+    width: 71.42%;
+    border: 1px solid #2B292A;
+    border-bottom-width: 0;
+    padding: 30px 30px 30px 10px;
+    text-align: right;
+}
+
+.checkout-summary-right {
+    width: 28.57%;
+    border: 1px solid #2B292A;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.checkout-summary-amount {
+    color: #E70E2B;
+    font-size: 22px;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+
+#pointsSummary, #creditSummary {
+    display: none;
+}
+

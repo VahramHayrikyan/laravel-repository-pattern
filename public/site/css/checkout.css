@@ -1,0 +1,30 @@
+.border-solid {
+    border: 1px solid #2B292A;
+}
+.text-width-color {
+    font-size: calc(20px + 1vw);
+    font-weight: bold;
+    color: #ed1c24;
+}
+.img-vw {
+    height: 10vw;
+}
+.paypal-points-text {
+    color: #7D7D7D;
+    font-size: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+.checkout-main {
+    background-color: #3A3A3A;
+    padding: 20px;
+    border-top: 2px solid #585858;
+}
+
+@media only screen and (max-width: 767px) {
+    .img-vw {
+        height: 20vw;
+    }
+}

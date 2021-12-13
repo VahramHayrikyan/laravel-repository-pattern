@@ -1,0 +1,6 @@
+div.col-12 p ,div.col-12 span {
+    font-size: x-small;
+}
+div.container div.row.text-center {
+    min-height: 350px;
+}

@@ -1,0 +1,104 @@
+@media (max-width: 1200px){
+    .account-about-me-textarea, .account-social-network-site-input-group{ margin-left:15px;}
+
+}
+@media (max-width: 1000px){
+    .account-social-network-site-preffix{ font-size: 12px;}
+}
+@media (max-width: 800px){
+    .account-social-network-site-preffix{ font-size: 10px;}
+    .account-edit-profile-button-submit>button, .account-edit-profile-button-view>
+    a{margin-top: 15px!important;margin-left: auto!important;
+    }
+
+}
+@media (max-width: 600px){
+    .account-social-network-site-preffix{ font-size: 9px;}
+
+}
+@media (max-width: 400px){
+    .account-social-network-site-preffix{ font-size: 8px;}
+}
+
+
+
+.account-edit-profile{
+    background: #3C3C3C;
+}
+
+.account-page-title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 20px 40px;
+    text-shadow: 2px 2px #ff0000;
+}
+
+
+.account-about-me-label>label {  margin-top: 10px;  }
+
+
+.account-about-me-textarea textarea{
+    background: #3C3C3C;
+    resize: none;
+    border-color: #989797;
+    border-radius:0;
+    color:whitesmoke;
+}
+
+.account-about-me-textarea textarea:focus{  border-color: red;  }
+
+
+
+
+
+.account-social-network-label {  text-transform: uppercase;  }
+
+.account-social-network-label>label {
+    font-size: 15px;
+    text-align: left !important;
+    margin-left: 40px;
+}
+
+.account-social-network-site-preffix{
+    background: #2F2E2E;
+    color: white;
+    font-weight: bold;
+    border-color: #989797;
+}
+.account-social-network-site-input{
+    background: inherit;
+    color: white;
+    border:2px solid #989797;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.account-social-network-site-input,
+.account-social-network-site-input::-webkit-input-placeholder {
+    font-size: 10px;
+    line-height: 3;
+    text-transform: none;
+}
+
+.account-social-network-site-input:focus{  border-color: red;  }
+
+
+
+.account-edit-profile-button-submit>button, .account-edit-profile-button-view>a{
+    margin-left: 40px;
+    border-color: #D6D5D5;
+    color: #D6D5D5;
+    padding:10px 20px;
+    min-width: 0;
+    font-weight: bolder;
+    width: 100%;
+}
+
+.account-edit-profile-buttons{  margin-top: 80px;  margin-bottom: 40px;  }
+
+.account-edit-profile-button-submit>button:hover, .account-edit-profile-button-view>a:hover{
+    background: #343434;
+    border-color: red;
+}

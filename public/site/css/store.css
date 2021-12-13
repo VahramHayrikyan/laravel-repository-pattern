@@ -1,0 +1,586 @@
+.trove-store-header-phrase {
+    flex-shrink: 0;
+    font-family: Stadium, serif;
+    font-size: calc(34px + 6 * ((100vw - 320px) / 680));
+    font-weight: normal;
+    line-height: .9;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 4px 5px 0 #000000;
+}
+.trove-store-header-phrase p{
+    margin: 0;
+    font-size: 35px;
+}
+.trove-store-header-phrase div.d-flex img {
+    height: 51px;
+}
+
+.trove-store-header-phrase div.d-flex span {
+    font-size: 55px;
+}
+
+.treasure-title {
+    font-weight: bold;
+    color: #ed1c24;
+    font-size: calc(100% + 1vh + 1vw);
+}
+
+.treasure-body {
+    font-weight: bold;
+    line-height: 1;
+    font-size: calc(100% + 1vh + 1vw);
+}
+
+div.bg-img div img {
+    height: 35vh;
+}
+
+.trove-store-header-phrase div.d-flex {
+
+    color: #dc291e;
+}
+
+.store-header-filters-item-name {
+    font-size: 10px;
+    font-weight: normal;
+    color: #f4f3f3;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.store-header-info {
+    flex-shrink: 0;
+    font-family: Stadium, serif;
+    font-size: calc(100% + 1vh + 1vw);
+    font-weight: normal;
+    line-height: 1;
+    color: #f4f3f3;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 4px 5px 0 #000000;
+}
+
+.store-header-info-big {
+    font-size: calc(100% + 3vh + 1vw);
+    color: #dc291e;
+}
+
+.store-header-info-small {
+    font-size: 15px;
+    display: inline-block;
+    padding: 4px 5px;
+    background-color: #100f0f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #f4f3f3;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+.filter-text {
+    font-size: 16px;
+    font-weight: normal;
+    color: #f4f3f3;
+    text-transform: uppercase;
+}
+
+.trove-header {
+    display: flex;
+    background-color: #100f0f;
+    transition: background-color 0.5s;
+    align-items: center;
+}
+
+.trove-header a {
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    align-self: center;
+    font-size: 12px;
+    font-weight: normal;
+    color: #ed1c24;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.trove-content {
+
+}
+
+.trove-footer {
+    background-color: #100f0f;
+    min-height: 103px;
+}
+
+.points {
+    border-bottom: 1px solid #2c2b2b;
+    font-size: calc(30% + 1vh);
+    font-weight: normal;
+    color: #f4f3f3;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.points span {
+    font-size: calc(100% + 1vh);
+}
+
+.store-item-systems {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 20px 15px;
+    border-right: 1px solid #2c2b2b;
+}
+
+.store-item-btn-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.store-item-btn {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 165px;
+    padding: 9px 15px;
+    background-color: transparent;
+    border: 2px solid #dc291e;
+    border-radius: 0;
+    font-size: 10px;
+    line-height: 1.3;
+    font-weight: normal;
+    color: #f4f3f3;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+    align-items: center;
+    justify-content: center;
+    max-width: calc(100% - 20px);
+    height: 34px;
+    margin: 0 auto;
+}
+
+.activeH {
+    transition: all .5s;
+    height: auto !important;
+
+}
+
+.settings-filters-hide-block {
+    position: absolute;
+    margin-top: 8px;
+    top: 100%;
+    left: 0;
+    height: auto;
+    right: 0;
+    overflow: hidden;
+    transition: height .5s;
+    display: none;
+    z-index: 100;
+    background-color: #100f0f;
+}
+
+.settings-filters-block-item {
+    display: block;
+    min-width: 180px;
+    padding: 7px 20px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #f4f3f3;
+    text-transform: uppercase;
+    white-space: nowrap;
+    -webkit-transition: color .5s;
+    transition: color .5s;
+}
+.settings-filters-block-item--current, .settings-filters-block-item--current:focus {
+    color: #ed1c24;
+    font-weight: bold;
+}
+.settings-filters-blocks-wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.settings-filters-blocks {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px 15px;
+    background-color: #100f0f;
+}
+
+.settings-filters-blocks button {
+    font-weight: normal;
+    color: #f4f3f3;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000000;
+}
+
+.settings-filters-blocks button.accordion-button:focus {
+    box-shadow: unset;
+}
+
+.settings-filters-blocks button.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, .125);;
+    color: #f4f3f3;
+}
+
+/* Filter LG Buttons Dropdown Start*/
+.filter-button {
+    font-weight: normal;
+    color: #f4f3f3;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000000;
+    cursor: pointer;
+}
+
+.collapsed_genre {
+    position: absolute;
+    margin-top: 0;
+    opacity: 0;
+    height: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: all 0.8s ease-in-out;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #100f0f;
+    border: 1px solid #3e3e3e;
+    border-radius: 2px;
+    min-width: 180px;
+    text-align: left;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.opened_gere {
+    opacity: 1;
+    height: auto;
+    z-index: 3;
+
+}
+
+/* Filter LG Buttons Dropdown End*/
+/*product card start */
+.trove-product {
+    transition: margin 0.5s ease-in-out;
+    margin: 0;
+    transform: none;
+    max-width: 390px;
+    max-height: 330px;
+}
+
+.trove-product:hover {
+    transition: margin 0.3s ease-in-out;
+    outline: 1px solid #ed1c24;
+    margin: -3.5px;
+
+}
+
+.trove-product-hidden {
+    visibility: hidden;
+}
+
+/*product card end */
+
+/*=============================
+        slider
+=============================*/
+
+.slick-slide {
+    position: relative;
+    outline: none;
+    z-index: 1;
+}
+
+.slick-slide.slick-current {
+    z-index: 2;
+}
+
+.slick-arrow {
+    position: absolute;
+    width: 50px;
+    top: 0;
+    height: 90%;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    text-indent: -9999px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.slick-arrow:focus {
+    outline: none;
+}
+
+.slick-arrow:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    margin-top: -21px;
+    transition: all, 0.3s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+}
+
+.slick-arrow:after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 2px;
+    top: 50%;
+    background-color: white;
+    transition: all, 0.4s 0.1s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+    opacity: 0;
+}
+
+.slick-arrow.slick-prev {
+    left: 0;
+}
+
+.slick-arrow.slick-prev:before {
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    left: 0;
+    transform: rotate(-45deg);
+}
+
+.slick-arrow.slick-prev:after {
+    left: 300px;
+}
+
+.slick-arrow.slick-prev:hover:before {
+    left: 20px;
+}
+
+.slick-arrow.slick-next {
+    right: 0;
+}
+
+.slick-arrow.slick-next:before {
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    right: 0;
+    transform: rotate(-45deg);
+}
+
+.slick-arrow.slick-next:after {
+    right: 300px;
+}
+
+.slick-arrow.slick-next:hover:before {
+    right: 20px;
+}
+
+.slick-dots {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+}
+
+.slick-dots li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #dc291e;
+    height: 14px;
+    width: 14px;
+}
+
+.slick-dots li.slick-active button:hover {
+    background-color: #dc291e;
+}
+
+.slick-dots li button {
+    outline: none;
+    display: block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    text-indent: -9999px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all, 0.2s, ease-in 1s ease-in-out;
+}
+
+.slick-dots li button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.page-link {
+    background: transparent;
+    border: unset;
+    color: #fff;
+}
+
+.page-item.active .page-link {
+    color: #ed1c24;
+    background: transparent;
+    border: unset;
+}
+
+.page-link:hover {
+    color: #ed1c24;
+    background: transparent;
+    border: unset;
+
+}
+
+.page-link:focus {
+    color: #ed1c24;
+    background: transparent;
+    border: unset;
+    z-index: 3;
+    outline: 0;
+    box-shadow: unset;
+}
+
+.page-item.disabled .page-link {
+    pointer-events: none;
+    background-color: transparent;
+    border-color: unset;
+}
+/* TODO:: MEDIA*/
+@media only screen and (min-width: 425px) {
+    .points span {
+        font-size: calc(40% + 1vh);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .btn_style {
+        min-width: 105px;
+    }
+
+}
+@media only screen and (min-width: 767px) {
+    .store-header-info-big {
+        font-size: calc(75% + 2vh + 1vw);
+        color: #dc291e;
+    }
+    .store-header-info {
+        font-size: calc(100% + 1vw);
+    }
+    .btn_style {
+        min-width: 130px;
+        max-height: 35px;
+    }
+
+    .trove-store-header-phrase {
+        font-size: calc(20px + 6 * ((100vw - 320px) / 680));
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .trove-store-header-phrase p {
+        margin: 0;
+        font-size: 28px;
+    }
+    .store-header-info {
+        font-size: calc(100% + 1vw);
+    }
+    .fs-lg-5 {
+        font-size: 1.25rem!important;
+    }
+}
+
+@media only screen and (min-width: 1680px) {
+    .store-header-info-big {
+        /*font-size: calc(25% + 2vh + 1vw);*/
+        color: #dc291e;
+    }
+    /*.store-header-info-small {*/
+    /*    font-size: calc(5% + 1vw);*/
+    /*}*/
+    .points {
+        font-size: calc(20% + 1vh);
+    }
+
+    .store-header-info {
+       font-size: calc(100% + 1vw);
+    }
+
+    .trove-store-header-phrase div.d-flex img {
+        height: 4vh;
+    }
+
+    .col-custom-xxxl-8 {
+        flex: 0 0 auto;
+        width: 66.6666666667%;
+    }
+
+    .trove-product {
+        max-width: unset;
+    }
+
+    .trove-store-header-phrase div.d-flex img {
+        height: 51px;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1680px) {
+    .col-custom-xxl-10 {
+        flex: 0 0 auto;
+        width: 83.3333333333%;
+    }
+
+    .trove-store-header-phrase div.d-flex img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .store-header-info-big {
+        font-size: calc(40% + 2vh + 1vw);
+        color: #dc291e;
+    }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2300px) {
+    .trove-store-header-phrase {
+        font-size: 65px;
+    }
+    .trove-store-header-phrase p{
+        margin: 0;
+        font-size: 28px;
+    }
+    .trove-store-header-phrase div img {
+        height: 64px;
+        width: 59px;
+    }
+}
+@media only screen and (min-width: 2300px) {
+    .store-header-info-small {
+        font-size: calc(1% + 1vw);
+    }
+    .trove-store-header-phrase {
+        font-size: 65px;
+    }
+    .trove-store-header-phrase p{
+        margin: 0;
+        font-size: 35px;
+    }
+    .trove-store-header-phrase div img {
+        height: 64px;
+        width: 59px;
+    }
+}

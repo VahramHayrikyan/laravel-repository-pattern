@@ -1,0 +1,38 @@
+div.articles-div div.col-12 p ,div.row div div.col-12 span {
+    /*padding-bottom: 20px;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-small;
+    font-weight: normal;
+    color: #f4f3f3;
+    text-align: justify;
+}
+
+div.category-div ul {
+    list-style: unset;
+    transition: all 2.5s;
+}
+div.row div.col-12 div ul li {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3e3e3e;
+}
+div.category-div ul li a {
+    font-size: 14px;
+}
+div.category-div ul li:hover {
+    color: #dc291e;
+    transition: all 0.2s;
+}
+div.popular-div ul li div {
+    font-size: large;
+}
+a.tag-a {
+    padding: 9px 20px;
+    background-color: #151414;
+    border-bottom: 1px solid #393838;
+    font-size: 12px;
+    font-weight: normal;
+    color: #f4f3f3;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
